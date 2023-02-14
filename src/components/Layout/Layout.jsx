@@ -1,8 +1,5 @@
 // import ContactForm from './ContactForm/ContactForm';
-import { SearchContact } from 'components/SearchContact/SearchContact';
-import ContactList from 'components/ContactList/ContactList';
-import { NavLink, Outlet } from 'react-router-dom';
-import ContactForm from 'components/ContactForm/ContactForm';
+import { Outlet } from 'react-router-dom';
 import { Navigation } from 'components/Navigation/Navigation';
 
 export const Layout = () => {
