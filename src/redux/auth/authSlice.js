@@ -30,7 +30,6 @@ const authSlice = createSlice({
         state.isRefreshing = false;
       })
       .addCase(signUpUser.rejected, state => state)
-      .addCase(signUpUser.rejected, state => state)
       .addCase(login.pending, state => state)
       .addCase(login.fulfilled, (state, action) => {
         console.log('login.fulfilled ', action);
