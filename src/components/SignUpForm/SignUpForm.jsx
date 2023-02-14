@@ -1,6 +1,5 @@
 import { useDispatch } from 'react-redux';
-import { postContacts, signUpUser } from 'redux/auth/authOperations';
-// import { postContact } from 'redux/operations';
+import { signUpUser } from 'redux/auth/authOperations';
 
 export const SignUpForm = () => {
   const dispatch = useDispatch();
